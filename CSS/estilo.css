@@ -26,6 +26,12 @@ main {
     font-family: "Raleway", sans-serif;;
 }
 
+@media(max-width: 880px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
 .esquerda, .experiencias, .educacao {
     background-color: var(--fundo-secao);
     border-radius: 10px;
